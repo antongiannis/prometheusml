@@ -1,6 +1,6 @@
 > First, do no harm (ὠφελέειν ἢ μὴ βλάπτειν)
 > 
-> Hippocrates _Epidemics_
+> ― Hippocrates, _Epidemics_
 
 At yaiLab we **democratise** AI and believe in responsible AI use. Whilst we are super excited about AI’s ability to 
 help humanity. We are committed to **Ethical** and **Responsible** AI.
