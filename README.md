@@ -4,7 +4,7 @@
   <picture>
     <source height="150" media="(prefers-color-scheme: dark)" srcset="https://yailab.com/assets/logo/logo-prometheus-white.svg">
     <source height="150" media="(prefers-color-scheme: light)" srcset="https://yailab.com/assets/logo/logo-prometheus-black.svg">
-    <img alt="Shows PrometheusML logo" src="https://yailab.com/assets/logo/logo-prometheus-black.svg">
+    <img height="150" alt="Shows PrometheusML logo" src="https://yailab.com/assets/logo/logo-prometheus-black.svg">
   </picture>
 
 </div>
