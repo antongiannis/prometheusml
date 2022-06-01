@@ -14,24 +14,43 @@
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 [![MIT License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
 
-## Open source data science assistant
-[Prometheus<span style="color: #ff7F2a;">ML</span>](https://yailab.net/) is a powerful assistant for data science. ...
+Prometheus<span style="color: #ff7F2a;">ML</span> Core is an open-source no-code platform for building machine learning 
+and deep learning models developed by [yaiLab](https://yailab.com/).   
 
-(Short description and explain visually what it can be used for?)
+## What exactly is Prometheus<span style="color: #ff7F2a;">ML</span> and Prometheus<span style="color: #ff7F2a;">ML</span> Core?
 
-To see how Prometheus<span style="color: #ff7F2a;">ML</span> looks please see the 
-[our website ...]().
+There are two versions of Prometheus<span style="color: #ff7F2a;">ML</span>:
+- The open-source Prometheus<span style="color: #ff7F2a;">ML</span> Core
+- The cloud data science assitant Prometheus<span style="color: #ff7F2a;">ML</span>
 
-- Manage Git repositories with fine grained access controls that keep your code secure
-- Perform code reviews and enhance collaboration with merge requests
-- Complete continuous integration (CI) and continuous deployment/delivery (CD) pipelines to build, test, and deploy your applications
-- Each project can also have an issue tracker, issue board, and a wiki
-- Used by more than 100,000 organizations, GitLab is the most popular solution to manage Git repositories on-premises
-- Completely free and open source (MIT Expat license)
+Prometheus<span style="color: #ff7F2a;">ML</span> Core allows anyone and everyone to build machine learning models in an
+interactive way through a UI, whilst Prometheus<span style="color: #ff7F2a;">ML</span> is a cloud data science assitant that helps
+users build specialised machine learning models fast in physics-intense fields.
 
-## Free trial
+## Is it free?
 
-You can request a free trial of cloud Prometheus<span style="color: #ff7F2a;">ML</span> [on our website](https://yailab.com/pricing.html).
+Yes, Prometheus<span style="color: #ff7F2a;">ML</span> Core is completely free. You can use Prometheus<span style="color: #ff7F2a;">ML</span> Core for free by following the instalation steps
+in this [repo](#install-prometheusml).
+
+Alternatively, to try out the cloud data science assistant Prometheus<span style="color: #ff7F2a;">ML</span> on a **free** trial go to our website and press on 
+[Try it now!](https://yailab.com). You can also find more info on the data science assitant 
+Prometheus<span style="color: #ff7F2a;">ML</span> [here](https://yailab.com/product.html).
+
+## How does Prometheus<span style="color: #ff7F2a;">ML</span> Core work?
+
+Prometheus<span style="color: #ff7F2a;">ML</span> Core will help you build an entire machine learning pipeline without 
+writing a single of code by guiding you through the entire process.  
+
+### 1. Data upload and evaluation
+- gif/video 1
+### 2. Feature engineering 
+- gif/video 2
+### 3. Algorithm selection 
+- gif/video 3
+### 4. Model validation and deployment 
+- gif/video 4
+### 5. Making predictions
+- gif/video 5
 
 ## Canonical source
 
