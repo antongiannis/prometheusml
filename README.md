@@ -41,16 +41,18 @@ Prometheus<span style="color: #ff7F2a;">ML</span> [here](https://yailab.com/prod
 Prometheus<span style="color: #ff7F2a;">ML</span> Core will help you build an entire machine learning pipeline without 
 writing a single of code by guiding you through the entire process.  
 
-### 1. Data upload and evaluation
-- gif/video 1
-### 2. Feature engineering 
-- gif/video 2
-### 3. Algorithm selection 
-- gif/video 3
-### 4. Model validation and deployment 
-- gif/video 4
-### 5. Making predictions
-- gif/video 5
+### 1. Select regression or classification template
+![](read_me_gifs/1.gif)
+### 2. Data upload and evaluation
+![](read_me_gifs/2.gif)
+### 3. Feature engineering 
+![](read_me_gifs/3.gif)
+### 4. Algorithm selection
+![](read_me_gifs/4.gif)
+### 5. Model validation and deployment 
+![](read_me_gifs/5.gif)
+### 6. Making predictions 
+![](read_me_gifs/6.gif)
 
 ## Canonical source
 
