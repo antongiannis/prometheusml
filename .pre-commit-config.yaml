@@ -1,0 +1,12 @@
+minimum_pre_commit_version: 2.15.0
+exclude: ^LICENSE*/|\.(html|csv|svg|mp4|webm|ogg)$
+default_stages: [commit, merge-commit, push, prepare-commit-msg, commit-msg, post-checkout, post-commit, post-merge, post-rewrite]
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.1.0  # this is optional, use `pre-commit autoupdate` to get the latest rev!
+    hooks:
+    -   id: check-yaml
+    -   id: end-of-file-fixer
+    -   id: trailing-whitespace
+    -   id: check-merge-conflict
+    -   id: check-added-large-files
