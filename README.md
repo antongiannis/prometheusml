@@ -42,7 +42,7 @@ Prometheus<span style="color: #ff7F2a;">ML</span> Core will help you build an en
 writing a single of code by guiding you through the entire process.  
 
 ### 1. Select regression or classification template
-![](read_me_gifs/1.gif)
+![](videos_readme/1.mov)
 ### 2. Data upload and evaluation
 ![](read_me_gifs/2.gif)
 ### 3. Feature engineering 
