@@ -14,8 +14,8 @@
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 [![MIT License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
 
-Prometheus<span style="color: #ff7F2a;">ML</span> Core is an open-source no-code platform for building machine learning 
-and deep learning models developed by [yaiLab](https://yailab.com/).   
+Prometheus<span style="color: #ff7F2a;">ML</span> Core is an open-source no-code platform for building machine learning
+and deep learning models developed by [yaiLab](https://yailab.com/).
 
 ## What exactly is Prometheus<span style="color: #ff7F2a;">ML</span> and Prometheus<span style="color: #ff7F2a;">ML</span> Core?
 
@@ -32,31 +32,31 @@ users build specialised machine learning models fast in physics-intense fields.
 Yes, Prometheus<span style="color: #ff7F2a;">ML</span> Core is completely free. You can use Prometheus<span style="color: #ff7F2a;">ML</span> Core for free by following the instalation steps
 in this [repo](#install-prometheusml).
 
-Alternatively, to try out the cloud data science assistant Prometheus<span style="color: #ff7F2a;">ML</span> on a **free** trial go to our website and press on 
-[Try it now!](https://yailab.com). You can also find more info on the data science assitant 
+Alternatively, to try out the cloud data science assistant Prometheus<span style="color: #ff7F2a;">ML</span> on a **free** trial go to our website and press on
+[Try it now!](https://yailab.com). You can also find more info on the data science assitant
 Prometheus<span style="color: #ff7F2a;">ML</span> [here](https://yailab.com/product.html).
 
 ## How does Prometheus<span style="color: #ff7F2a;">ML</span> Core work?
 
-Prometheus<span style="color: #ff7F2a;">ML</span> Core will help you build an entire machine learning pipeline without 
-writing a single of code by guiding you through the entire process.  
+Prometheus<span style="color: #ff7F2a;">ML</span> Core will help you build an entire machine learning pipeline without
+writing a single of code by guiding you through the entire process.
 
 ### 1. Select regression or classification template
 ![](videos_readme/1.mov)
 ### 2. Data upload and evaluation
 ![](read_me_gifs/2.gif)
-### 3. Feature engineering 
+### 3. Feature engineering
 ![](read_me_gifs/3.gif)
 ### 4. Algorithm selection
 ![](read_me_gifs/4.gif)
-### 5. Model validation and deployment 
+### 5. Model validation and deployment
 ![](read_me_gifs/5.gif)
-### 6. Making predictions 
+### 6. Making predictions
 ![](read_me_gifs/6.gif)
 
 ## Canonical source
 
-The canonical source of Prometheus<span style="color: #ff7F2a;">ML</span> where all development takes place is 
+The canonical source of Prometheus<span style="color: #ff7F2a;">ML</span> where all development takes place is
 [hosted on GitLab.com](https://gitlab.com/yailab/prometheusml).
 
 ## Table of contents
@@ -71,22 +71,22 @@ The canonical source of Prometheus<span style="color: #ff7F2a;">ML</span> where 
 
 
 ## Install PrometheusML
-Install Prometheus<span style="color: #ff7F2a;">ML</span> on Docker Swarm with the cloud native Docker Compose tool. 
+Install Prometheus<span style="color: #ff7F2a;">ML</span> on Docker Swarm with the cloud native Docker Compose tool.
 You need to follow the next steps.
 
-**_Important consideration_**. The default Docker Compose configuration is not intended for production. It creates 
-a proof of concept (PoC) implementation where all Prometheus<span style="color: #ff7F2a;">ML</span> services are placed 
+**_Important consideration_**. The default Docker Compose configuration is not intended for production. It creates
+a proof of concept (PoC) implementation where all Prometheus<span style="color: #ff7F2a;">ML</span> services are placed
 into a cluster.
 
 ### 1. Environment setup
 Before proceeding to using Prometheus<span style="color: #ff7F2a;">ML</span>, you need to prepare your environment.
 
-You need to have Docker Compose **installed** on your computer. Docker Compose relies on Docker Engine, 
-so make sure you have Docker Engine installed either locally or remote, depending on your setup. More details on how 
+You need to have Docker Compose **installed** on your computer. Docker Compose relies on Docker Engine,
+so make sure you have Docker Engine installed either locally or remote, depending on your setup. More details on how
 to install it can be found in the [Docker Compose documentation](https://docs.docker.com/compose/install/).
 
 ### 2. Clone repository
-```sh 
+```sh
 git clone https://gitlab.com/yailab/prometheusml.git
 ```
 
@@ -95,40 +95,46 @@ Go to the cloned repository folder, and type the following commands:
 
 ```sh
 # Set needed environment variable(s)
-export gl_username="yailab" prometheus_dir="/home/prometheus/prometheusml" 
+export gl_username="yailab" prometheus_dir="/home/prometheus/prometheusml"
 # Run the containers and bind your local repo to them
 docker compose up -d --remove-orphans
 ```
 
-You can now access Prometheus<span style="color: #ff7F2a;">ML</span> from the browser of your choice 
-by typing the address `localhost:5000`. 
+You can now access Prometheus<span style="color: #ff7F2a;">ML</span> from the browser of your choice
+by typing the address `localhost:5000`.
 
-You can create **a new user** by going to the registration page of your locally launched 
-Prometheus<span style="color: #ff7F2a;">ML</span> instance. The created user comes preloaded 
-with two **templates**, a general _regression_ and a _classification_ one. You can now 
+You can create **a new user** by going to the registration page of your locally launched
+Prometheus<span style="color: #ff7F2a;">ML</span> instance. The created user comes preloaded
+with two **templates**, a general _regression_ and a _classification_ one. You can now
 <span style="color: #ff7F2a;">enjoy building machine learning models</span>!
 
 
 ## Documentation
-The documentation of Prometheus<span style="color: #ff7F2a;">ML</span> is under 
-<span style="color: #ff7F2a;">active development</span>! 
+The documentation of Prometheus<span style="color: #ff7F2a;">ML</span> is under
+<span style="color: #ff7F2a;">active development</span>!
 
 You can start with the following **tutorial videos** for a quick introduction:
 - [Using PrometheusML to predict ...]()
 - [Using PrometheusML to classify ...]()
 
+Contributing to the documentation benefits everyone who uses Prometheus<span style="color: #ff7F2a;">ML</span>.
+We encourage you to help us improve the documentation, and you don’t have to be an expert to do so!
+In fact, there are sections of the docs that are worse off after being written by experts. If something in the docs
+does not make sense to you, updating the relevant section after you figure it out is a great way to ensure it will help
+the next person.
+
 
 ## Discussion on AI ethics
-At y<span style="color: #ff7F2a;">ai</span>Lab we **democratise** AI and believe in responsible AI use. Whilst we are super excited about AI’s 
-ability to help humanity with its biggest problems, we are committed to **Ethical** and **Responsible** AI. 
+At y<span style="color: #ff7F2a;">ai</span>Lab we **democratise** AI and believe in responsible AI use. Whilst we are super excited about AI’s
+ability to help humanity with its biggest problems, we are committed to **Ethical** and **Responsible** AI.
 
 What we do can potentially affect everyone... and the responsibility ... We strongly believe in transparency and inclusive dicsussion ..
-We need the community's help to ... Join our [Discord channel]() and join the discussion to shape... 
+We need the community's help to ... Join our [Discord channel]() and join the discussion to shape...
 
 
 ## Contributing to PrometheusML
-Prometheus<span style="color: #ff7F2a;">ML</span> is an open source project, and we are 
-very happy to accept community contributions. Please refer to the [Contributing guide](CONTRIBUTING.md) 
+Prometheus<span style="color: #ff7F2a;">ML</span> is an open source project, and we are
+very happy to accept community contributions. Please refer to the [Contributing guide](CONTRIBUTING.md)
 for more details.
 
 ### Code of Conduct
@@ -144,7 +150,7 @@ At the same time, we don't take ourselves too seriously and humor is encouraged.
 
 This project is maintained under the [Semantic Versioning guidelines](https://semver.org/).
 
-See the [Releases section](https://gitlab.com/yailab/prometheusml/-/releases) of our GitLab project for 
+See the [Releases section](https://gitlab.com/yailab/prometheusml/-/releases) of our GitLab project for
 changelogs for each release version of Prometheus<span style="color: #ff7F2a;">ML</span>.
 
 
@@ -160,6 +166,6 @@ Code released under the [MIT license](). ??
 
 ## Community
 
-* Follow [@lab_yai](https://twitter.com/lab_yai) on Twitter for the latest yaiLab news, or 
+* Follow [@lab_yai](https://twitter.com/lab_yai) on Twitter for the latest yaiLab news, or
 sign up for our [newsletter]().
 * If you want to chat and connect, join our [Discord community]()!
